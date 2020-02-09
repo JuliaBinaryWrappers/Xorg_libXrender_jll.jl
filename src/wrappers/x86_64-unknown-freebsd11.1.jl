@@ -2,7 +2,6 @@
 export libXrender
 
 using Xorg_libX11_jll
-using Xorg_renderproto_jll
 ## Global variables
 PATH = ""
 LIBPATH = ""
@@ -26,14 +25,18 @@ const libXrender = "libXrender.so.1"
 Open all libraries
 """
 function __init__()
-    global prefix = abspath(joinpath(@__DIR__, ".."))
+    global artifact_dir = abspath(artifact"Xorg_libXrender")
 
     # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
-    append!.(Ref(PATH_list), (Xorg_libX11_jll.PATH_list, Xorg_renderproto_jll.PATH_list,))
-    append!.(Ref(LIBPATH_list), (Xorg_libX11_jll.LIBPATH_list, Xorg_renderproto_jll.LIBPATH_list,))
+    # We first need to add to LIBPATH_list the libraries provided by Julia
+    append!(LIBPATH_list, [joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)])
+    # From the list of our dependencies, generate a tuple of all the PATH and LIBPATH lists,
+    # then append them to our own.
+    foreach(p -> append!(PATH_list, p), (Xorg_libX11_jll.PATH_list,))
+    foreach(p -> append!(LIBPATH_list, p), (Xorg_libX11_jll.LIBPATH_list,))
 
-    global libXrender_path = abspath(joinpath(artifact"Xorg_libXrender", libXrender_splitpath...))
+    global libXrender_path = normpath(joinpath(artifact_dir, libXrender_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
