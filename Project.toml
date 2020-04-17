@@ -1,6 +1,6 @@
 name = "Xorg_libXrender_jll"
 uuid = "ea2f1a96-1ddc-540d-b46f-429655e07cfa"
-version = "0.9.10+1"
+version = "0.9.10+2"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
