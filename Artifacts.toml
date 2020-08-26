@@ -1,89 +1,89 @@
 [[Xorg_libXrender]]
-arch = "armv7l"
-git-tree-sha1 = "c72d2b4c80974b7d14397a5726aef6e81189dce4"
+arch = "aarch64"
+git-tree-sha1 = "c616e180e13ac905bd7c51c6f71f9a04e21f9793"
 libc = "glibc"
 os = "linux"
 
     [[Xorg_libXrender.download]]
-    sha256 = "31d43b34546f2b240f445cb096232b762c15e3d40bcb56334bb18b9c8941e4fa"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXrender_jll.jl/releases/download/Xorg_libXrender-v0.9.10+2/Xorg_libXrender.v0.9.10.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "c90d8200b6c802746346b25ee3d8911d43096a135637d37615881580329f8d2c"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXrender_jll.jl/releases/download/Xorg_libXrender-v0.9.10+3/Xorg_libXrender.v0.9.10.aarch64-linux-gnu.tar.gz"
+[[Xorg_libXrender]]
+arch = "aarch64"
+git-tree-sha1 = "1ab868abed9cc3dc629dc40e1f27a90f928547ca"
+libc = "musl"
+os = "linux"
+
+    [[Xorg_libXrender.download]]
+    sha256 = "5735793055cc89efbdd2289a96ff499dea699ba383528d2053b79a9ff3e8c08f"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXrender_jll.jl/releases/download/Xorg_libXrender-v0.9.10+3/Xorg_libXrender.v0.9.10.aarch64-linux-musl.tar.gz"
+[[Xorg_libXrender]]
+arch = "armv7l"
+git-tree-sha1 = "884d02936ae11f02d50f3ea8776b216771bf3dc5"
+libc = "glibc"
+os = "linux"
+
+    [[Xorg_libXrender.download]]
+    sha256 = "732b7789705470c119c8659e34b63ac1d4fdb7acafd48e647c811100c02d9b67"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXrender_jll.jl/releases/download/Xorg_libXrender-v0.9.10+3/Xorg_libXrender.v0.9.10.armv7l-linux-gnueabihf.tar.gz"
+[[Xorg_libXrender]]
+arch = "armv7l"
+git-tree-sha1 = "74aadb389613eba40031767ccd68a94a426ac052"
+libc = "musl"
+os = "linux"
+
+    [[Xorg_libXrender.download]]
+    sha256 = "93eb79ab633076161e7f16ee9f91d5b6bba1a824b65d9c9eb3f9d3f2979e9526"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXrender_jll.jl/releases/download/Xorg_libXrender-v0.9.10+3/Xorg_libXrender.v0.9.10.armv7l-linux-musleabihf.tar.gz"
 [[Xorg_libXrender]]
 arch = "i686"
-git-tree-sha1 = "d5b78d39830bc75066a11d73433094cd6e1eb334"
-libc = "musl"
-os = "linux"
-
-    [[Xorg_libXrender.download]]
-    sha256 = "fc5dfe4396c599ff69b775e086be083bb169cac9ba45e41d7762cefa72e45174"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXrender_jll.jl/releases/download/Xorg_libXrender-v0.9.10+2/Xorg_libXrender.v0.9.10.i686-linux-musl.tar.gz"
-[[Xorg_libXrender]]
-arch = "aarch64"
-git-tree-sha1 = "f3b23d83806dedb0fcfde6193c7d512127c37393"
+git-tree-sha1 = "bb4508889c1caeb9938a8e45f9fd6d55e2b1afcb"
 libc = "glibc"
 os = "linux"
 
     [[Xorg_libXrender.download]]
-    sha256 = "8b557fed7523f50e88b09ff855b414193536ce8950460fd9899a14ee59b99574"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXrender_jll.jl/releases/download/Xorg_libXrender-v0.9.10+2/Xorg_libXrender.v0.9.10.aarch64-linux-gnu.tar.gz"
+    sha256 = "6e619bc5c76b41aa40f7cd006871d74208106c5b258adee14f1da448141b786e"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXrender_jll.jl/releases/download/Xorg_libXrender-v0.9.10+3/Xorg_libXrender.v0.9.10.i686-linux-gnu.tar.gz"
 [[Xorg_libXrender]]
-arch = "armv7l"
-git-tree-sha1 = "e2621c76156d96c81d70daab2641ca74b1e86e29"
+arch = "i686"
+git-tree-sha1 = "dccb26f20b59045ca73fbd82766b63e062daccda"
 libc = "musl"
 os = "linux"
 
     [[Xorg_libXrender.download]]
-    sha256 = "103844920c78b8d7b139b5e5e56acc33170066034c305773cd679f85f01c9fcd"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXrender_jll.jl/releases/download/Xorg_libXrender-v0.9.10+2/Xorg_libXrender.v0.9.10.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "58357643984ee3fbc6abf3c92203581de214f5790e8037c8897b0c53ef29c8c5"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXrender_jll.jl/releases/download/Xorg_libXrender-v0.9.10+3/Xorg_libXrender.v0.9.10.i686-linux-musl.tar.gz"
 [[Xorg_libXrender]]
-arch = "aarch64"
-git-tree-sha1 = "a5331ecf85277b01c291fafb2143cb00f33cce48"
-libc = "musl"
+arch = "powerpc64le"
+git-tree-sha1 = "bac514fdc18137a431f558a689128ce259fb3f1b"
+libc = "glibc"
 os = "linux"
 
     [[Xorg_libXrender.download]]
-    sha256 = "105138c13a23ab3970a891f4e765011f24ada0380855c53fa4903c2215067d7a"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXrender_jll.jl/releases/download/Xorg_libXrender-v0.9.10+2/Xorg_libXrender.v0.9.10.aarch64-linux-musl.tar.gz"
+    sha256 = "ba73313af2914ce9e2427cb1aa343a771094034c5e66d35e122582be16194d84"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXrender_jll.jl/releases/download/Xorg_libXrender-v0.9.10+3/Xorg_libXrender.v0.9.10.powerpc64le-linux-gnu.tar.gz"
 [[Xorg_libXrender]]
 arch = "x86_64"
-git-tree-sha1 = "5a6ffadd1b28f4ad7f41f1d280dbc45a8b11aab4"
+git-tree-sha1 = "527e66fb9b12dfd1f58157fe0b3fd52b84062432"
+libc = "glibc"
+os = "linux"
+
+    [[Xorg_libXrender.download]]
+    sha256 = "44f42b88ba7558a7916161c6d4c0e0c9e8ee328c5c5561d7ef9ab4130f6c92c5"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXrender_jll.jl/releases/download/Xorg_libXrender-v0.9.10+3/Xorg_libXrender.v0.9.10.x86_64-linux-gnu.tar.gz"
+[[Xorg_libXrender]]
+arch = "x86_64"
+git-tree-sha1 = "d5862d1b3aaf2e2221de6eb0dfe8246ec4840999"
+libc = "musl"
+os = "linux"
+
+    [[Xorg_libXrender.download]]
+    sha256 = "e5fa97bb64fb1187326f921919aefe3584bb84b63ab284f17ee23a737da82aa3"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXrender_jll.jl/releases/download/Xorg_libXrender-v0.9.10+3/Xorg_libXrender.v0.9.10.x86_64-linux-musl.tar.gz"
+[[Xorg_libXrender]]
+arch = "x86_64"
+git-tree-sha1 = "b84546f775933de759c210773bedf48931b6456a"
 os = "freebsd"
 
     [[Xorg_libXrender.download]]
-    sha256 = "eadf901c733e924a76b38790f0918905efb5c03e94d9156ae11426235e538c31"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXrender_jll.jl/releases/download/Xorg_libXrender-v0.9.10+2/Xorg_libXrender.v0.9.10.x86_64-unknown-freebsd11.1.tar.gz"
-[[Xorg_libXrender]]
-arch = "i686"
-git-tree-sha1 = "c4870ab898643dbe03b17edbf050dfe66b276ac8"
-libc = "glibc"
-os = "linux"
-
-    [[Xorg_libXrender.download]]
-    sha256 = "699565a94e4282453cdf3d12116ac626ee8d0129c72cbe5acbcbbb01544ad204"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXrender_jll.jl/releases/download/Xorg_libXrender-v0.9.10+2/Xorg_libXrender.v0.9.10.i686-linux-gnu.tar.gz"
-[[Xorg_libXrender]]
-arch = "x86_64"
-git-tree-sha1 = "d11eea4b0b5b3c65b25dcbb5cde9ea383c1a899e"
-libc = "musl"
-os = "linux"
-
-    [[Xorg_libXrender.download]]
-    sha256 = "e8928c681d071029d2c5b5d5452a73fb7adc6ff1f2149074b27a403c0cfe82b6"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXrender_jll.jl/releases/download/Xorg_libXrender-v0.9.10+2/Xorg_libXrender.v0.9.10.x86_64-linux-musl.tar.gz"
-[[Xorg_libXrender]]
-arch = "x86_64"
-git-tree-sha1 = "75403c5b85cc33f558a329a28194d9c28207fb77"
-libc = "glibc"
-os = "linux"
-
-    [[Xorg_libXrender.download]]
-    sha256 = "f7667b86ad59f7fcae19418725f5009fd3d0cd84ceee02b7d25add97ae19ad0b"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXrender_jll.jl/releases/download/Xorg_libXrender-v0.9.10+2/Xorg_libXrender.v0.9.10.x86_64-linux-gnu.tar.gz"
-[[Xorg_libXrender]]
-arch = "powerpc64le"
-git-tree-sha1 = "62dee667514a0b3086959efee06b9181e0761122"
-libc = "glibc"
-os = "linux"
-
-    [[Xorg_libXrender.download]]
-    sha256 = "9ead0cff9a3c31cb153cfb19568807c813d2f77051931804a1278156494b56ea"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXrender_jll.jl/releases/download/Xorg_libXrender-v0.9.10+2/Xorg_libXrender.v0.9.10.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "8c310a9a6b6398c1340ed24d9e2041dcd7d6a027994e068ef694e05a5db22a16"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXrender_jll.jl/releases/download/Xorg_libXrender-v0.9.10+3/Xorg_libXrender.v0.9.10.x86_64-unknown-freebsd11.1.tar.gz"
